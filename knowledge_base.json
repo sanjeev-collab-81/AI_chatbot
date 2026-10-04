@@ -1,0 +1,332 @@
+[
+	{
+		"category": "Greetings",
+		"question": "Hello",
+		"patterns": ["^(hi|hello|hey)$", "^(good morning|good afternoon|good evening)$"],
+		"response": "Hello! Ask me a question about computer science or AI."
+	},
+	{
+		"category": "Greetings",
+		"question": "How are you?",
+		"patterns": ["^how are you( doing)?$"],
+		"response": "I'm ready to help you learn. What would you like to ask?"
+	},
+	{
+		"category": "Chatbot identity",
+		"question": "What is your name?",
+		"patterns": ["^(what is|whats) your name$", "^who are you$"],
+		"response": "I'm the Traditional AI Rule-Based Chatbot, a Python project that answers using rules and text similarity."
+	},
+	{
+		"category": "Chatbot identity",
+		"question": "Who created you?",
+		"patterns": ["^who (created|made) you$", "^who built you$"],
+		"response": "I was created as a beginner-friendly demonstration of traditional AI and classical NLP techniques."
+	},
+	{
+		"category": "Chatbot identity",
+		"question": "What can you do?",
+		"patterns": ["^what can you do$", "^how can you help me$"],
+		"response": "I can answer predefined questions about AI, programming, computer science, and study skills."
+	},
+	{
+		"category": "Artificial Intelligence",
+		"question": "What is artificial intelligence?",
+		"patterns": ["^(what is|define|explain) artificial intelligence$", "^what is ai$"],
+		"response": "Artificial intelligence (AI) is the field of building computer systems that perform tasks associated with human intelligence, such as reasoning, planning, or understanding language."
+	},
+	{
+		"category": "Artificial Intelligence",
+		"question": "What are examples of AI?",
+		"patterns": ["^give (me )?examples of ai$", "^what are examples of artificial intelligence$"],
+		"response": "Examples include rule-based expert systems, route planning, spam filters, and speech recognition. They use different methods and do not all learn in the same way."
+	},
+	{
+		"category": "Machine Learning",
+		"question": "What is machine learning?",
+		"patterns": ["^(what is|define|explain) machine learning$", "^what is ml$"],
+		"response": "Machine learning is a field where algorithms use data to find patterns and make predictions or decisions, instead of relying only on hand-written rules."
+	},
+	{
+		"category": "Machine Learning",
+		"question": "How is machine learning different from AI?",
+		"patterns": ["^how is machine learning different from ai$", "^is machine learning the same as ai$"],
+		"response": "AI is the broader goal of making systems perform intelligent tasks. Machine learning is one approach within AI that learns patterns from data."
+	},
+	{
+		"category": "Natural Language Processing",
+		"question": "What is natural language processing?",
+		"patterns": ["^(what is|define|explain) natural language processing$", "^what is nlp$"],
+		"response": "Natural language processing (NLP) is the area of computing concerned with processing and working with human language, such as classifying text or answering questions."
+	},
+	{
+		"category": "Traditional AI",
+		"question": "What is traditional AI?",
+		"patterns": ["^(what is|define|explain) traditional ai$", "^what is classical ai$"],
+		"response": "Traditional AI uses explicit representations and methods such as rules, logic, search, and planning. It can solve useful problems without neural networks."
+	},
+	{
+		"category": "Rule-based systems",
+		"question": "What is a rule-based system?",
+		"patterns": ["^(what is|define|explain) a rule based system$", "^how does a rule based system work$"],
+		"response": "A rule-based system applies human-written IF-THEN rules to facts or input. For example, IF a user says hello, THEN return a greeting."
+	},
+	{
+		"category": "Expert systems",
+		"question": "What is an expert system?",
+		"patterns": ["^(what is|define|explain) an expert system$"],
+		"response": "An expert system uses a knowledge base and reasoning rules to give advice in a specific area. It represents expert knowledge rather than learning it automatically."
+	},
+	{
+		"category": "Python",
+		"question": "What is Python?",
+		"patterns": ["^(what is|define|explain) python$"],
+		"response": "Python is a general-purpose programming language known for readable syntax and a large collection of libraries."
+	},
+	{
+		"category": "Python",
+		"question": "What is a variable in Python?",
+		"patterns": ["^what is a variable in python$", "^how do variables work in python$"],
+		"response": "A variable is a name that refers to a value. For example, `score = 10` binds the name score to the integer value 10."
+	},
+	{
+		"category": "Programming",
+		"question": "What is programming?",
+		"patterns": ["^(what is|define|explain) programming$"],
+		"response": "Programming is writing instructions that a computer can execute to perform a task or solve a problem."
+	},
+	{
+		"category": "Algorithms",
+		"question": "What is an algorithm?",
+		"patterns": ["^(what is|define|explain) an algorithm$"],
+		"response": "An algorithm is a finite, ordered set of steps for solving a problem or completing a computation."
+	},
+	{
+		"category": "Data structures",
+		"question": "What is a data structure?",
+		"patterns": ["^(what is|define|explain) a data structure$"],
+		"response": "A data structure organizes data so a program can access and change it efficiently. Examples include lists, dictionaries, stacks, and queues."
+	},
+	{
+		"category": "Arrays",
+		"question": "What is an array?",
+		"patterns": ["^(what is|define|explain) an array$"],
+		"response": "An array stores elements in an indexed sequence. In many languages, arrays have a fixed size and store elements of one type; details vary by language."
+	},
+	{
+		"category": "Lists",
+		"question": "What is a list in Python?",
+		"patterns": ["^(what is|define|explain) a list in python$", "^what is a python list$"],
+		"response": "A Python list is an ordered, changeable collection. It can hold multiple values, such as `colors = [\"red\", \"blue\"]`."
+	},
+	{
+		"category": "Tuples",
+		"question": "What is a tuple in Python?",
+		"patterns": ["^(what is|define|explain) a tuple( in python)?$"],
+		"response": "A tuple is an ordered collection that cannot be changed after it is created. A simple example is `point = (3, 5)`."
+	},
+	{
+		"category": "Dictionaries",
+		"question": "What is a dictionary in Python?",
+		"patterns": ["^(what is|define|explain) a dictionary( in python)?$"],
+		"response": "A Python dictionary stores values under unique keys, making it convenient to look up a value by name, such as `person[\"name\"]`."
+	},
+	{
+		"category": "Stacks",
+		"question": "What is a stack?",
+		"patterns": ["^(what is|define|explain) a stack$"],
+		"response": "A stack is a data structure that follows Last In, First Out (LIFO). Common operations are push to add an item and pop to remove the top item."
+	},
+	{
+		"category": "Queues",
+		"question": "What is a queue?",
+		"patterns": ["^(what is|define|explain) a queue$"],
+		"response": "A queue is a data structure that usually follows First In, First Out (FIFO). Items are added at the back and removed from the front."
+	},
+	{
+		"category": "Linked lists",
+		"question": "What is a linked list?",
+		"patterns": ["^(what is|define|explain) a linked list$"],
+		"response": "A linked list is a sequence of nodes where each node stores data and a link to another node. Unlike an array, its elements are not necessarily stored next to each other in memory."
+	},
+	{
+		"category": "Recursion",
+		"question": "What is recursion?",
+		"patterns": ["^(what is|define|explain) recursion$"],
+		"response": "Recursion is when a function solves a problem by calling itself on a smaller version of that problem. It needs a base case to stop."
+	},
+	{
+		"category": "SQL",
+		"question": "What is SQL?",
+		"patterns": ["^(what is|define|explain) sql$"],
+		"response": "SQL (Structured Query Language) is commonly used to define, query, and modify data in relational databases."
+	},
+	{
+		"category": "Databases",
+		"question": "What is a database?",
+		"patterns": ["^(what is|define|explain) a database$"],
+		"response": "A database is an organized collection of data that can be stored, searched, and updated, often using a database management system."
+	},
+	{
+		"category": "Databases",
+		"question": "What is a primary key?",
+		"patterns": ["^(what is|define|explain) a primary key$"],
+		"response": "A primary key is a column, or set of columns, used to uniquely identify each row in a database table."
+	},
+	{
+		"category": "Computer networks",
+		"question": "What is a computer network?",
+		"patterns": ["^(what is|define|explain) a computer network$", "^what is networking$"],
+		"response": "A computer network is a group of connected devices that can exchange data and share resources."
+	},
+	{
+		"category": "Computer networks",
+		"question": "What is an IP address?",
+		"patterns": ["^(what is|define|explain) an ip address$"],
+		"response": "An IP address is a numeric address used to identify an interface on an Internet Protocol network and help route data to it."
+	},
+	{
+		"category": "Operating systems",
+		"question": "What is an operating system?",
+		"patterns": ["^(what is|define|explain) an operating system$", "^what does an operating system do$"],
+		"response": "An operating system manages computer hardware and software resources and provides common services for applications. Examples include Windows, Linux, and macOS."
+	},
+	{
+		"category": "Cybersecurity",
+		"question": "What is cybersecurity?",
+		"patterns": ["^(what is|define|explain) cybersecurity$", "^what is cyber security$"],
+		"response": "Cybersecurity is the practice of protecting computers, networks, accounts, and data from unauthorized access, damage, or disruption."
+	},
+	{
+		"category": "Cybersecurity",
+		"question": "How can I make a password safer?",
+		"patterns": ["^how can i make a password safer$", "^how do i create a strong password$"],
+		"response": "Use a long, unique password for each account. A password manager can help, and multi-factor authentication adds another layer of protection."
+	},
+	{
+		"category": "Data science",
+		"question": "What is data science?",
+		"patterns": ["^(what is|define|explain) data science$"],
+		"response": "Data science combines statistics, programming, and subject knowledge to explore data and communicate useful findings."
+	},
+	{
+		"category": "Cloud computing",
+		"question": "What is cloud computing?",
+		"patterns": ["^(what is|define|explain) cloud computing$"],
+		"response": "Cloud computing provides computing resources, such as storage and servers, over a network when needed instead of requiring users to manage all the hardware themselves."
+	},
+	{
+		"category": "Git and GitHub",
+		"question": "What is Git?",
+		"patterns": ["^(what is|define|explain) git$"],
+		"response": "Git is a version control system that records changes to files, helping people review work and collaborate on code."
+	},
+	{
+		"category": "Git and GitHub",
+		"question": "What is GitHub?",
+		"patterns": ["^(what is|define|explain) github$"],
+		"response": "GitHub is a web service for hosting Git repositories and collaborating through tools such as code review and issue tracking. Git and GitHub are related but different."
+	},
+	{
+		"category": "College projects",
+		"question": "Suggest a college project idea.",
+		"patterns": ["^(suggest|give me) (a )?(college )?project ideas?$", "^give me an idea for a college project$"],
+		"response": "A beginner-friendly idea is a rule-based FAQ chatbot. Store questions and answers in JSON, match patterns with regular expressions, and use TF-IDF similarity for unmatched wording."
+	},
+	{
+		"category": "College projects",
+		"question": "How should I organize a college project?",
+		"patterns": ["^how should i organize a college project$", "^what files should a small python project have$"],
+		"response": "Separate responsibilities into small files: keep the interface, core logic, text processing, and data in suitable modules. Add a README with setup and run instructions."
+	},
+	{
+		"category": "Viva preparation",
+		"question": "How should I prepare for a viva?",
+		"patterns": ["^how should i prepare for a viva$", "^how do i prepare for my viva$"],
+		"response": "Review your project goals, design choices, important code, and limitations. Practice explaining the flow in your own words and answering likely questions aloud."
+	},
+	{
+		"category": "Viva preparation",
+		"question": "What questions might I be asked in a project viva?",
+		"patterns": ["^what questions might i be asked in a project viva$", "^give me project viva questions$"],
+		"response": "You may be asked what problem your project solves, why you chose its methods, how its parts work together, how you tested it, and what you would improve next."
+	},
+	{
+		"category": "Study tips",
+		"question": "How can I study effectively?",
+		"patterns": ["^how can i study effectively$", "^give me study tips$"],
+		"response": "Set a small, specific goal for each session, practice recalling ideas without notes, solve problems, and revisit difficult topics over several days. Take short breaks."
+	},
+	{
+		"category": "Study tips",
+		"question": "How do I learn coding?",
+		"patterns": ["^how do i learn coding$", "^how can i learn programming$"],
+		"response": "Choose one language, learn a small concept, and use it in a tiny program. Read errors carefully, practice regularly, and gradually build projects of your own."
+	},
+	{
+		"category": "General computer science",
+		"question": "What is a compiler?",
+		"patterns": ["^(what is|define|explain) a compiler$"],
+		"response": "A compiler translates a program from one language or representation into another, often producing machine code or another form that can be executed."
+	},
+	{
+		"category": "General computer science",
+		"question": "What is debugging?",
+		"patterns": ["^(what is|define|explain) debugging$"],
+		"response": "Debugging is the process of finding, understanding, and fixing problems in a program. Reproducing the issue and checking one assumption at a time can help."
+	},
+	{
+		"category": "General computer science",
+		"question": "What is object-oriented programming?",
+		"patterns": ["^(what is|define|explain) object oriented programming$", "^what is oop$"],
+		"response": "Object-oriented programming organizes software around objects that combine data and behavior. Common concepts include classes, encapsulation, inheritance, and polymorphism."
+	},
+	{
+		"category": "General computer science",
+		"question": "What is a function?",
+		"patterns": ["^(what is|define|explain) a function$"],
+		"response": "A function is a named, reusable block of code that can accept inputs and return a result. It helps organize a program into smaller tasks."
+	},
+	{
+		"category": "Algorithms",
+		"question": "What is binary search?",
+		"patterns": ["^(what is|define|explain) binary search$"],
+		"response": "Binary search finds a value in sorted data by repeatedly checking the middle and discarding half of the remaining search area. Its time complexity is O(log n)."
+	},
+	{
+		"category": "Algorithms",
+		"question": "What is time complexity?",
+		"patterns": ["^(what is|define|explain) time complexity$"],
+		"response": "Time complexity describes how an algorithm's running time grows as its input size grows. Big O notation summarizes that growth, such as O(n) or O(log n)."
+	},
+	{
+		"category": "Computer networks",
+		"question": "What is the difference between the internet and the web?",
+		"patterns": ["^what is the difference between the internet and the web$", "^is the internet the same as the web$"],
+		"response": "The internet is the global network infrastructure. The World Wide Web is a service that uses the internet to access linked pages and resources."
+	},
+	{
+		"category": "General computer science",
+		"question": "What is an API?",
+		"patterns": ["^(what is|define|explain) an api$"],
+		"response": "An API is a defined way for software components to request data or services from each other. It describes available operations and how to use them."
+	},
+	{
+		"category": "Programming",
+		"question": "What is open-source software?",
+		"patterns": ["^(what is|define|explain) open source software$", "^what does open source mean$"],
+		"response": "Open-source software makes its source code available under a license that grants specified rights to use, inspect, modify, or share it."
+	},
+	{
+		"category": "Greetings",
+		"question": "Thank you",
+		"patterns": ["^(thanks|thank you)$", "^thanks a lot$"],
+		"response": "You're welcome! Ask another question whenever you're ready."
+	},
+	{
+		"category": "Greetings",
+		"question": "Goodbye",
+		"patterns": ["^(bye|goodbye|see you)$"],
+		"response": "Goodbye! Good luck with your learning and project."
+	}
+]
